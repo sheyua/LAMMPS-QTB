@@ -1,0 +1,10 @@
+# Settings for libraries used by specific LAMMPS packages
+# this file is auto-edited when those packages are included/excluded
+
+PKG_INC =   -I../../lib/reax 
+PKG_PATH =  -L../../lib/reax 
+PKG_LIB =   -lreax 
+
+PKG_SYSINC =  $(reax_SYSINC) 
+PKG_SYSLIB =  $(reax_SYSLIB) 
+PKG_SYSPATH = $(reax_SYSPATH) 
