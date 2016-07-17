@@ -9,9 +9,7 @@ package with the following commands while compiling LAMMPS.
 	make yes-USER-QTB
 	make openmpi // or any other make version depending on your machine
 
-/***********************************************************************************************
-* LAMMPS README
-***********************************************************************************************/
+# * LAMMPS README
 
 This is the LAMMPS software package.
 
@@ -54,9 +52,7 @@ doc/Section_intro.html	   hi-level introduction to LAMMPS
 doc/Section_start.html	   how to build and use LAMMPS
 doc/Developer.pdf          LAMMPS developer guide
 
-/***********************************************************************************************
-* QTB README
-***********************************************************************************************/
+# * QTB README
 
 This package contains 2 fix commands, "fix qtb" and 
 "fix qbmsst" which involves quantum nuclear effects.
